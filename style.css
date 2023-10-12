@@ -1,0 +1,23 @@
+.calculator {   
+  width: 200px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+}
+   button[data-number] {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+  }
+  
